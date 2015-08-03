@@ -18,11 +18,14 @@ Plugin 'tobyS/vmustache'
 Plugin 'tobyS/pdv'
 Plugin 'Townk/vim-autoclose'
 Plugin 'vim-scripts/DfrankUtil'
+"Other colorschemes
+Plugin 'NLKNguyen/papercolor-theme'
 call vundle#end() "All plugins to be called before this
 filetype plugin indent on
 
 syntax on
-colorscheme apprentice 
+set background=dark
+colorscheme PaperColor 
 set lbr
 set tw=500
 
