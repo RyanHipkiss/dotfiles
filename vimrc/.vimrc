@@ -21,14 +21,15 @@ call vundle#end() "All plugins to be called before this
 filetype plugin indent on
 
 syntax on
-colorscheme blackboard 
+set background=dark
+colorscheme solarized 
 set lbr
 set tw=500
 
 autocmd BufReadPost *
-	\ if line("'\"") > 0 && line("'\"") <= line("$") |
-	\  exe "normal! g`\"" |
-	\ endif
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \  exe "normal! g`\"" |
+  \ endif
 autocmd BufRead,BufNewFile *.blade.php set filetype=html
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
