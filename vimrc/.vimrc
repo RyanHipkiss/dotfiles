@@ -29,22 +29,22 @@ set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb= 
 
 imap jj <ESC>
-set autochdir
-set autoindent
-set backspace=indent,eol,start
-set backupdir=~/.vim/tmp
-set backup
-set confirm
-set cursorline
-set expandtab
+set autochdir " Automatically change directory to file we are editing
+set autoindent " Automatically indent
+set backspace=indent,eol,start "Backspace is used /w indents
+set backupdir=~/.vim/tmp " Where we store backups
+set backup " Enables backup
+set confirm " Need to confirm things if files aren't saved on quit
+set cursorline " Highlight current line
+set expandtab 
 set shiftwidth=2
 set foldlevel=1
 set foldmethod=syntax
 set hidden
 set history=1000
-set hlsearch
+set hlsearch " Highlights search items
 set ignorecase
-set incsearch
+set incsearch " Searches as we type
 set laststatus=2
 set modeline
 set modelines=1
@@ -52,18 +52,18 @@ set noexrc
 set nostartofline
 set notimeout ttimeout ttimeoutlen=200
 set wrap
-set number
+set number " Enables numbers
 set omnifunc=syntaxcomplete#Complete
 set ruler
 set scrolloff=5
 set showcmd
 set smartcase
-set smartindent
+set smartindent " Indents based on previous line
 set softtabstop=2
 set statusline=%F\ [line\ %l/%L]\ [buffer\ %n]\ [column\ %c]
 set tabstop=2
 set title
-set t_Co=256
+set t_Co=256 " Sets colors
 set wildmenu
 
 "White space
