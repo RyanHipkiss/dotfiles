@@ -15,6 +15,7 @@ Plugin 'scrooloose/syntastic' " Syntax help
 Plugin 'vim-scripts/vimprj' " Custom vim settings for each project
 Plugin 'Townk/vim-autoclose' " not sure..
 Plugin 'vim-scripts/DfrankUtil' " Vim utilities
+Plugin 'scrooloose/nerdcommenter' " Commentr
 call vundle#end() "All plugins to be called before this
 filetype plugin indent on
 
