@@ -16,13 +16,26 @@ Plugin 'vim-scripts/vimprj' " Custom vim settings for each project
 Plugin 'Townk/vim-autoclose' " not sure..
 Plugin 'vim-scripts/DfrankUtil' " Vim utilities
 Plugin 'scrooloose/nerdcommenter' " Commentr
+Plugin 'chriskempson/base16-vim' "more colors!
 call vundle#end() "All plugins to be called before this
 filetype plugin indent on
 
 " --- Custom settings --- "
 syntax on " Enable the nice syntax.
-set background=dark " Set my preferred background
-colorscheme solarized " Chose my colorscheme
+
+"Lets check what file type and change the colorscheme
+autocmd BufEnter * set background=dark
+autocmd BufEnter * colorscheme solarized 
+
+autocmd BufEnter *.css colorscheme molokai set background=dark && list
+autocmd BufEnter *.scss colorscheme molokai set background=dark && list
+
+autocmd BufEnter *.php colorscheme Tomorrow-Night 
+
+autocmd BufEnter *.html colorscheme codeburn
+
+autocmd BufEnter *.conf colorscheme badwolf 
+
 set lbr " Enable line break
 set tw=500 " Text width
 "no error noise
@@ -68,7 +81,6 @@ set t_Co=256 " Sets colors
 set wildmenu
 
 "White space
-set list
 set listchars=tab:>-,trail:·,eol:$
 
 "fast terminal?
