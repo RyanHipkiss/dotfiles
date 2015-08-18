@@ -17,6 +17,7 @@ Plugin 'Townk/vim-autoclose' " not sure..
 Plugin 'vim-scripts/DfrankUtil' " Vim utilities
 Plugin 'scrooloose/nerdcommenter' " Commentr
 Plugin 'chriskempson/base16-vim' "more colors!
+Plugin 'mattn/emmet-vim' " Emmet for vim
 call vundle#end() "All plugins to be called before this
 filetype plugin indent on
 
