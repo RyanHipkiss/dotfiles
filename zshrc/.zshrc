@@ -5,7 +5,7 @@ export ZSH=/home/humphreywilkins/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="gitster"
+ZSH_THEME="custom"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,12 +49,7 @@ ZSH_THEME="gitster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-plugins=(npm)
-plugins=(github)
-plugins=(git-prompt)
-plugins=(git-flow)
-pluins=(git-remote-branch)
+plugins=(git, npm, github, git-prompt, git-flow, git-remote-branch)
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
@@ -87,3 +82,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias restart="sudo service apache2 restart"
+alias nrb="npm run build"
