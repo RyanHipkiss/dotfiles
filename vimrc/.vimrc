@@ -27,8 +27,10 @@ syntax on " Enable the nice syntax.
 autocmd BufEnter * set background=dark
 autocmd BufEnter * colorscheme solarized 
 
-autocmd BufEnter *.css colorscheme molokai set background=dark && list
-autocmd BufEnter *.scss colorscheme molokai set background=dark && list
+autocmd BufEnter *.css set background=dark
+autocmd BufEnter *.css colorscheme ChocolateLiquor
+autocmd BufEnter *.scss set background=dark
+autocmd BufEnter *.scss colorscheme ChocolateLiquor
 
 autocmd BufEnter *.php colorscheme Tomorrow-Night 
 
