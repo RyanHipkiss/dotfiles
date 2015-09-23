@@ -49,7 +49,7 @@ ZSH_THEME="custom"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git, npm, github, git-prompt, git-flow, git-remote-branch)
+plugins=(git npm github git-prompt git-flow git-remote-branch lol)
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
@@ -81,5 +81,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias restart="sudo service apache2 restart"
-alias nrb="npm run build"
+eval $(thefuck --alias fuck)
