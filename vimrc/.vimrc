@@ -16,7 +16,8 @@ Plugin 'chriskempson/base16-vim'  "More Colours!
 "Helpful for quicker working
 Plugin 'ervandew/supertab'        "Simple Tab Completion
 Plugin 'mattn/emmet-vim'          "Quicker HTML - Emmett for vim
-Plugin 'scrooloose/nerdcommenter' " Commentr
+Plugin 'scrooloose/nerdcommenter' "Commenter
+Plugin 'Townk/vim-autoclose'      "Autocloses brackets etc
 
 "Syntax help
 Plugin 'scrooloose/syntastic'     "Syntax checking
