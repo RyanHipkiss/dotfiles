@@ -44,7 +44,18 @@ autocmd BufEnter *.html colorscheme codeburn        "HTML colorscheme
 autocmd BufEnter *.conf colorscheme badwolf         "conf colorschemes
 " }}}
 " Keybinds {{{
+let mapleader="," "leader becomes comma
+
+"jj becomes ESC in insert mode
 imap jj <ESC>
+
+"move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
+"remap saving techniques
+nnoremap <leader>wq :wq<CR>
+nnoremap <leader>w :w<CR>
 " }}}
 " Spaces & Tabs {{{
 set shiftwidth=1
