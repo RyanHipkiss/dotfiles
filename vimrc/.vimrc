@@ -33,12 +33,12 @@ autocmd BufEnter * set background=dark              "General files
 autocmd BufEnter * colorscheme solarized            "General files
 
 autocmd BufEnter *.css set background=dark          "CSS dark background
-autocmd BufEnter *.css colorscheme ChocolateLiquor  "CSS Colorscheme
+autocmd BufEnter *.css colorscheme Molokai          "CSS Colorscheme
 
 autocmd BufEnter *.scss set background=dark         "SCSS dark background
-autocmd BufEnter *.scss colorscheme ChocolateLiquor "SCSS colorscheme
+autocmd BufEnter *.scss colorscheme Molokai         "SCSS colorscheme
 
-autocmd BufEnter *.php colorscheme Tomorrow-Night   "PHP colorscheme
+autocmd BufEnter *.php colorscheme Tomorrow         "PHP colorscheme
 
 autocmd BufEnter *.html colorscheme codeburn        "HTML colorscheme
 
