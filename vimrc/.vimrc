@@ -38,7 +38,7 @@ autocmd BufEnter *.css colorscheme Molokai          "CSS Colorscheme
 autocmd BufEnter *.scss set background=dark         "SCSS dark background
 autocmd BufEnter *.scss colorscheme Molokai         "SCSS colorscheme
 
-autocmd BufEnter *.php colorscheme Tomorrow         "PHP colorscheme
+autocmd BufEnter *.php colorscheme symfony          "PHP colorscheme
 
 autocmd BufEnter *.html colorscheme codeburn        "HTML colorscheme
 
