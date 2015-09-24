@@ -18,6 +18,7 @@ Plugin 'ervandew/supertab'        "Simple Tab Completion
 Plugin 'mattn/emmet-vim'          "Quicker HTML - Emmett for vim
 Plugin 'scrooloose/nerdcommenter' "Commenter
 Plugin 'Townk/vim-autoclose'      "Autocloses brackets etc
+Plugin 'junegunn/vim-easy-align'  "Easy align vim
 
 "Syntax help
 Plugin 'scrooloose/syntastic'     "Syntax checking
@@ -33,10 +34,10 @@ autocmd BufEnter * set background=dark              "General files
 autocmd BufEnter * colorscheme solarized            "General files
 
 autocmd BufEnter *.css set background=dark          "CSS dark background
-autocmd BufEnter *.css colorscheme Molokai          "CSS Colorscheme
+autocmd BufEnter *.css colorscheme Monokai          "CSS Colorscheme
 
 autocmd BufEnter *.scss set background=dark         "SCSS dark background
-autocmd BufEnter *.scss colorscheme Molokai         "SCSS colorscheme
+autocmd BufEnter *.scss colorscheme Monokai         "SCSS colorscheme
 
 autocmd BufEnter *.php colorscheme symfony          "PHP colorscheme
 
@@ -98,5 +99,14 @@ set smartindent "Indents based on previous line
 " Error Bells {{{
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb= 
+" }}}
+" Vim Easy Align {{{
+
+"Start interactive EasyAlign in visual mode (e.g.vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+"Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
 " }}}
 " vim:foldmethod=marker:foldlevel=0
