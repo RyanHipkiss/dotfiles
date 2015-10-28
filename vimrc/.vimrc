@@ -60,10 +60,10 @@ nnoremap <leader>wq :wq<CR>
 nnoremap <leader>w :w<CR>
 " }}}
 " Spaces & Tabs {{{
-set shiftwidth=1
-set softtabstop=1
+set shiftwidth=4
+set softtabstop=4
 set expandtab 
-set tabstop=1
+set tabstop=4
 " }}}
 "UI Layout {{{
 set number      "Show line numbers
@@ -74,6 +74,7 @@ set lazyredraw  "redraw when need to
 set showmatch   "highlight matching [{()}]
 set hlsearch    " Highlights search items
 set incsearch   " Searches as we type
+set t_Co=256  " Nice colours on vim
 " }}}
 " Folding {{{
 set foldlevel=0
