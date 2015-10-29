@@ -23,6 +23,9 @@ Plugin 'junegunn/vim-easy-align'  "Easy align vim
 "Syntax help
 Plugin 'scrooloose/syntastic'     "Syntax checking
 
+"Fuzzy file finder
+Plugin 'kien/ctrlp.vim'           "Fuzzy finder for files 
+
 call vundle#end()                 "All plugins to be called before this
 
 filetype plugin indent on
@@ -110,4 +113,12 @@ vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " }}}
+" CtrlP {{{
+nnoremap <silent> t :CtrlP<cr>
+let g:ctrlp_working_path_mode = 'a'
+let g:ctrlp_by_filename = 1
+let g:ctrlp_max_files = 600
+let g:ctrlp_max_depth =  5
+" }}}
+
 " vim:foldmethod=marker:foldlevel=0
