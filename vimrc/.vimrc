@@ -22,6 +22,7 @@ Plugin 'junegunn/vim-easy-align'  "Easy align vim
 
 "Syntax help
 Plugin 'scrooloose/syntastic'     "Syntax checking
+Plugin 'evidens/vim-twig'
 
 "Fuzzy file finder
 Plugin 'kien/ctrlp.vim'           "Fuzzy finder for files 
