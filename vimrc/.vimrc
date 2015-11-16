@@ -34,20 +34,9 @@ filetype plugin indent on
 " Syntax & Colorschemes {{{
 set t_Co=256                                        "Enable 256 colouring
 syntax on                                           "Syntax enabled
-autocmd BufEnter * set background=dark              "General files
-autocmd BufEnter * colorscheme solarized            "General files
-
-autocmd BufEnter *.css set background=dark          "CSS dark background
-autocmd BufEnter *.css colorscheme Monokai          "CSS Colorscheme
-
-autocmd BufEnter *.scss set background=dark         "SCSS dark background
-autocmd BufEnter *.scss colorscheme Monokai         "SCSS colorscheme
-
-autocmd BufEnter *.php colorscheme symfony          "PHP colorscheme
-
-autocmd BufEnter *.html colorscheme codeburn        "HTML colorscheme
-
-autocmd BufEnter *.conf colorscheme badwolf         "conf colorschemes
+set background=light                                 "Dark background
+let g:solarized_termcolors=256
+colorscheme solarized
 " }}}
 " Keybinds {{{
 let mapleader="," "leader becomes comma
