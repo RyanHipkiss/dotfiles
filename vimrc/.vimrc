@@ -34,9 +34,9 @@ filetype plugin indent on
 " Syntax & Colorschemes {{{
 set t_Co=256                                        "Enable 256 colouring
 syntax on                                           "Syntax enabled
-set background=light                                 "Dark background
+set background=dark                                 "Dark background
 let g:solarized_termcolors=256
-colorscheme solarized
+colorscheme gruvbox
 " }}}
 " Keybinds {{{
 let mapleader="," "leader becomes comma
