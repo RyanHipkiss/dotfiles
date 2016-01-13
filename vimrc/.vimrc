@@ -34,9 +34,8 @@ filetype plugin indent on
 " Syntax & Colorschemes {{{
 set t_Co=256                                        "Enable 256 colouring
 syntax on                                           "Syntax enabled
-set background=dark                                 "Dark background
-let g:solarized_termcolors=256
-colorscheme jellybeans
+set background=light                                 "Light background
+colorscheme visualstudio
 " }}}
 " Keybinds {{{
 let mapleader="," "leader becomes comma
@@ -70,7 +69,7 @@ set incsearch   " Searches as we type
 set t_Co=256  " Nice colours on vim
 " }}}
 " Folding {{{
-set foldlevel=0
+set foldlevel=10
 set foldmethod=syntax
 set modeline
 set modelines=1
