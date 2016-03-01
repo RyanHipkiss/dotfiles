@@ -35,7 +35,7 @@ filetype plugin indent on
 set t_Co=256                                        "Enable 256 colouring
 syntax on                                           "Syntax enabled
 set background=light                                 "Light background
-colorscheme visualstudio
+colorscheme 256-grayvim
 " }}}
 " Keybinds {{{
 let mapleader="," "leader becomes comma
