@@ -1,0 +1,8 @@
+[user]
+	name = Ryan Hipkiss
+	email = ryan@ryanhipkiss.co.uk
+[http]
+	postBuffer = 157286400
+[alias]
+    hide = update-index --assume-unchanged
+    unhide = update-index --no-assume-unchanged
