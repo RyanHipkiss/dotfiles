@@ -27,6 +27,9 @@ Plugin 'evidens/vim-twig'
 "Fuzzy file finder
 Plugin 'kien/ctrlp.vim'           "Fuzzy finder for files 
 
+"PHP
+Plugin 'shawncplus/phpcomplete.vim' "PHP Completer
+
 call vundle#end()                 "All plugins to be called before this
 
 filetype plugin indent on
@@ -110,4 +113,9 @@ let g:ctrlp_max_files = 600
 let g:ctrlp_max_depth =  5
 " }}}
 
+" PHP Complete {{{
+let g:phpcomplete_mappings = {
+  \ 'jump_to_def': ',g',
+  \ }
+" }}}
 " vim:foldmethod=marker:foldlevel=0
